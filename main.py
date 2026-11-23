@@ -53,10 +53,11 @@ def guess_mood(sentence):
   else:
     return "HAPPY"
 
-practise_data=[("I had a wonderful day today","happy"),
-               ("I lost my favorite pen before exam","sad"),
-               ("I am proud of you","happy"),
-               ("I fealt lonely and lost among the group","sad")]
+practise_data=[("I won a medal in the sports meet","Happy"),
+               ("I lost my notebook before the exam","Sad"),
+               ("My friends gave me a lovely surprise","Happy"),
+               ("The train was late and I felt upset","Sad"),
+               ("Today was a great day","Happy")]
 
 c_count=0
 for sentence,mood in practise_data:
